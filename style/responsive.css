@@ -1,0 +1,1017 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+
+  .banner {
+    margin: 30px 0 30px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  /* header part start here */
+
+  .inner-header .nav {
+    float: right;
+    padding: 5px 0 0 0;
+  }
+
+  .inner-header .nav li {
+    list-style: none;
+    display: inline;
+  }
+
+  .inner-header .nav a {
+    display: inline-block;
+    border: 1px solid #008aff;
+    border-radius: 8px;
+    padding: 3px 3px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px;
+  }
+
+  .inner-header .nav a:hover {
+    background-color: #008aff;
+    color: white;
+  }
+
+  .inner-header .nav .tabHide {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .dropdown {
+    display: none;
+  }
+  /* 1st banner style start from here */
+
+  .banner1 {
+    margin: 80px 0 0 0;
+  }
+
+  .inner-banner1 .textCenter h1 {
+    font-size: 40px;
+  }
+
+  .inner-banner1 .textCenter p {
+    font-size: 25px;
+  }
+
+  .inner-banner1 .imgCenter img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* 2nd banner style start from here */
+  .inner-banner2 .left {
+    text-align: right;
+    padding: 0 20px 0 20px;
+  }
+
+  .inner-banner2 .left h2 {
+    font-size: 40px;
+  }
+
+  .inner-banner2 .left p {
+    font-size: 24px;
+  }
+
+  .inner-banner2 .right {
+    padding: 0 80px 0 20px;
+  }
+
+  .inner-banner2 .right h2 {
+    font-size: 40px;
+  }
+
+  /* 3rd banner style start from here */
+
+  .inner-banner3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-banner3 .left {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .center {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .right {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 h2 {
+    font-size: 25px;
+    font-weight: 400px;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+  } /* all h2 of box  */
+
+  .inner-banner3 p {
+    font-size: 22px;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+  } /* all para of box  */
+
+  /* .footer section started*/
+
+  .footer p {
+    font-size: 18px;
+    font-weight: 200;
+    color: aliceblue;
+  }
+
+  .footer span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: white;
+  }
+
+  /* styles of pricing.html file */
+
+  .pricing {
+    margin: 0px 0 30px 0;
+    padding: 0 0 0 0;
+  }
+
+  .pricing .pricing-head h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #008aff;
+  }
+
+  .pricing .pricing-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+  }
+
+  .pricing .pricing-body .box {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #008aff;
+    color: white;
+    border-radius: 8px;
+    padding: 50px 10px;
+    margin: 5px;
+  }
+
+  .pricing .pricing-body h3 {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body h4 {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* style of About section started here  */
+
+  .form .formImg {
+    padding: 50px;
+    /* overflow: clip; */
+  }
+
+  .form .formImg img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    /* transform: scale(1);
+  transition: transform 0.5s linear; */
+  }
+  /* style of form input section */
+
+  .form .formText h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #008aff;
+  }
+
+  .form .formText p {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #0f2656;
+  }
+
+  .form .formText label {
+    font-size: 20px;
+    color: #0f2656;
+  }
+
+  .form .formText input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    resize: vertical;
+    font-size: 16px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText input[type='submit'] {
+    font-size: 18px;
+    background-color: #008aff;
+    color: white;
+    padding: 10px;
+    border: 2px solid #008aff;
+    border-radius: 31px;
+  }
+
+  .form .formText input[type='submit']:hover {
+    background-color: #008aff;
+    color: #0f2656;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+
+  .banner {
+    margin: 30px 0 30px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  [class*='col-'] {
+    width: 100%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+  /* 1st banner style start from here */
+
+  .banner1 {
+    margin: 80px 0 0 0;
+  }
+
+  .inner-banner1 .textCenter h1 {
+    font-size: 35px;
+  }
+
+  .inner-banner1 .textCenter p {
+    font-size: 18px;
+  }
+
+  .inner-banner1 .imgCenter img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* 2nd banner style start from here */
+  .inner-banner2 .left {
+    text-align: left;
+    padding: 15px;
+  }
+
+  .inner-banner2 .left h2 {
+    font-size: 35px;
+  }
+
+  .inner-banner2 .left p {
+    font-size: 18px;
+  }
+
+  .inner-banner2 .right {
+    padding: 15px;
+  }
+
+  .inner-banner2 .right h2 {
+    font-size: 35px;
+  }
+
+  /* 3rd banner style start from here */
+
+  .inner-banner3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-banner3 .left {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .center {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .right {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 h2 {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+  } /* all h2 of box  */
+
+  .inner-banner3 p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+  } /* all para of box  */
+
+  /* .footer section started*/
+
+  .footer p {
+    font-size: 16px;
+    font-weight: 200;
+    color: aliceblue;
+  }
+
+  .footer span {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: white;
+  }
+
+  /* styles of pricing.html file */
+
+  .pricing {
+    margin: 0px 0 30px 0;
+    padding: 0 0 0 0;
+  }
+
+  .pricing .pricing-head h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #008aff;
+  }
+
+  .pricing .pricing-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+  }
+
+  .pricing .pricing-body .box {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #008aff;
+    color: white;
+    border-radius: 8px;
+    padding: 50px 10px;
+    margin: 5px;
+  }
+
+  .pricing .pricing-body h3 {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body h4 {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* style of About section started here  */
+
+  .form .formImg {
+    padding: 20px;
+    /* overflow: clip; */
+  }
+
+  .form .formImg img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    /* transform: scale(1);
+  transition: transform 0.5s linear; */
+  }
+
+  /* style of form input section */
+
+  .form .formText h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #008aff;
+  }
+
+  .form .formText p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #0f2656;
+  }
+
+  .form .formText label {
+    font-size: 18px;
+    color: #0f2656;
+  }
+
+  .form .formText input[type='text'] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px 12px;
+    resize: vertical;
+    font-size: 16px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText input[type='submit'] {
+    font-size: 16px;
+    background-color: #008aff;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid #008aff;
+    border-radius: 31px;
+  }
+
+  .form .formText input[type='submit']:hover {
+    background-color: #008aff;
+    color: #0f2656;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .banner {
+    margin: 30px 0 30px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  [class*='col-'] {
+    width: 100%;
+  }
+
+  .header {
+    position: static;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  /* 1st banner style start from here */
+
+  .inner-banner1 .textCenter h1 {
+    font-size: 25px;
+  }
+
+  .inner-banner1 .textCenter p {
+    font-size: 16px;
+  }
+
+  .inner-banner1 .imgCenter img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* 2nd banner style start from here */
+  .inner-banner2 .left {
+    text-align: left;
+    padding: 15px;
+  }
+
+  .inner-banner2 .left h2 {
+    font-size: 25px;
+  }
+
+  .inner-banner2 .left p {
+    font-size: 16px;
+  }
+
+  .inner-banner2 .right {
+    padding: 15px;
+  }
+
+  .inner-banner2 .right h2 {
+    font-size: 25px;
+  }
+
+  /* 3rd banner style start from here */
+
+  .inner-banner3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-banner3 .left {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .center {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .right {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 h2 {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+  } /* all h2 of box  */
+
+  .inner-banner3 p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+  } /* all para of box  */
+
+  /* .footer section started*/
+
+  .footer p {
+    font-size: 12px;
+    font-weight: 200;
+    color: aliceblue;
+  }
+
+  .footer span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: white;
+  }
+
+  /* styles of pricing.html file */
+
+  .pricing {
+    margin: 0 0 30px 0;
+    padding: 0 0 20px 0;
+  }
+
+  .pricing .pricing-head h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #008aff;
+  }
+
+  .pricing .pricing-body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .pricing .pricing-body .box {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #008aff;
+    color: white;
+    border-radius: 8px;
+    padding: 50px 10px;
+    margin: 15px;
+  }
+
+  .pricing .pricing-body h3 {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body h4 {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* style of About section started here  */
+
+  .form .formImg {
+    padding: 20px;
+    /* overflow: clip; */
+  }
+
+  .form .formImg img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    /* transform: scale(1);
+  transition: transform 0.5s linear; */
+  }
+
+  /* style of form input section */
+
+  .form .formText h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #008aff;
+  }
+
+  .form .formText p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #0f2656;
+  }
+
+  .form .formText label {
+    font-size: 16px;
+    color: #0f2656;
+  }
+
+  .form .formText input[type='text'] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px 12px;
+    resize: vertical;
+    font-size: 16px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText input[type='submit'] {
+    font-size: 16px;
+    background-color: #008aff;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid #008aff;
+    border-radius: 31px;
+  }
+
+  .form .formText input[type='submit']:hover {
+    background-color: #008aff;
+    color: #0f2656;
+  }
+  /* css */
+}
+
+/* 
+  ##Device = samsung gallaxy fold
+  ##Screen = B/w 280px to 320px
+*/
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .banner {
+    margin: 30px 0 30px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  [class*='col-'] {
+    width: 100%;
+  }
+
+  .header {
+    position: static;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  /* 1st banner style start from here */
+
+  .inner-banner1 .textCenter h1 {
+    font-size: 20px;
+  }
+
+  .inner-banner1 .textCenter p {
+    font-size: 16px;
+  }
+
+  .inner-banner1 .imgCenter img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* 2nd banner style start from here */
+  .inner-banner2 .left {
+    text-align: left;
+    padding: 15px;
+  }
+
+  .inner-banner2 .left h2 {
+    font-size: 25px;
+  }
+
+  .inner-banner2 .left p {
+    font-size: 16px;
+  }
+
+  .inner-banner2 .right {
+    padding: 15px;
+  }
+
+  .inner-banner2 .right h2 {
+    font-size: 25px;
+  }
+
+  /* 3rd banner style start from here */
+
+  .inner-banner3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-banner3 .left {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .center {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 .right {
+    flex-basis: 100%;
+    margin: 15px;
+  }
+
+  .inner-banner3 h2 {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+  } /* all h2 of box  */
+
+  .inner-banner3 p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+  } /* all para of box  */
+
+  /* .footer section started*/
+
+  .footer p {
+    font-size: 9px;
+    font-weight: 200;
+    color: aliceblue;
+  }
+
+  .footer span {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: white;
+  }
+
+  /* styles of pricing.html file */
+
+  .pricing {
+    margin: 0 0 30px 0;
+    padding: 0 0 20px 0;
+  }
+
+  .pricing .pricing-head h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #008aff;
+  }
+
+  .pricing .pricing-body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .pricing .pricing-body .box {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #008aff;
+    color: white;
+    border-radius: 8px;
+    padding: 50px 10px;
+    margin: 15px;
+  }
+
+  .pricing .pricing-body h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+  }
+
+  .pricing .pricing-body p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* style of About section started here  */
+
+  .form .formImg {
+    padding: 0px;
+    /* overflow: clip; */
+  }
+
+  .form .formImg img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    /* transform: scale(1);
+  transition: transform 0.5s linear; */
+  }
+
+  /* style of form input section */
+
+  .form .formText h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #008aff;
+  }
+
+  .form .formText p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 20px 15px;
+    color: #0f2656;
+  }
+
+  .form .formText label {
+    font-size: 16px;
+    color: #0f2656;
+  }
+
+  .form .formText input[type='text'] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px 12px;
+    resize: vertical;
+    font-size: 16px;
+    border: 2px solid #008aff;
+  }
+
+  .form .formText input[type='submit'] {
+    font-size: 16px;
+    background-color: #008aff;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid #008aff;
+    border-radius: 31px;
+  }
+
+  .form .formText input[type='submit']:hover {
+    background-color: #008aff;
+    color: #0f2656;
+  }
+}
+
+/* The End */
